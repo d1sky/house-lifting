@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    text-align: right;
+}
+
+footer li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
