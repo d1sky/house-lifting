@@ -1,0 +1,20 @@
+.button {
+    background: linear-gradient(0deg, #01BF2A 0%, #FFFFFF 160.66%);
+    box-shadow: inset 0px -2px 10px #1E5214;
+    border-radius: 10px;
+    position: absolute;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 140%;
+    color: #F1F1F1;
+}
+
+.button-calc {
+    position: relative;
+}
+
+.button:hover {
+    background: linear-gradient(0deg, #01BF2A 50%, #FFFFFF 160.66%);
+}

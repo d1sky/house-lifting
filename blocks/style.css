@@ -1,0 +1,262 @@
+/* 
+
+1400 > 
+
+1020 - 1400
+
+640 - 1020
+
+320 - 640
+
+*/
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 13px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+section, footer {
+    max-width: 1400px;
+    padding: 100px 120px;
+}
+
+@media screen and (max-width: 1400px) {
+    section, footer {
+        padding: 10px 20px;
+    }
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+    .title {
+        padding-top: 60px;
+    }
+}
+
+.title h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    color: #F1F1F1;
+}
+
+@media screen and (max-width: 640px) {
+    .title h1 {
+        font-size: 80px;
+    }
+}
+
+.title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.subtitle__green {
+    color: #52D46A;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.section_about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -3px;
+    color: #102010;
+    padding-bottom: 60px;
+}
+
+section p {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 100;
+}
+
+.text {
+    width: 50%;
+}
+
+.developer {
+    width: 50%;
+    background-image: url("../img/devoloper.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media screen and (max-width: 640px) {
+    .text {
+        width: 100%;
+    }
+
+    .developer {
+        display: none;
+    }
+}
+
+.title-green {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #52D46A;
+}
+
+.video-grid {
+    width: 100%;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, 200px);
+    margin-top: 92px;
+}
+
+@media screen and (max-width: 1020px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 48%);
+        grid-template-rows: repeat(3);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .video-grid {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6);
+    }
+}
+
+.video {
+    width: 100%;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .text {
+        width: 100%;
+    }
+
+    .developer {
+        display: none;
+    }
+}
+
+.section_projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project {
+    background-image: url("../img/projects/project_1.jpg");
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+}
+
+.schema-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.schema-block {
+    width: 180px;
+    height: 350px;
+    background: #A8DAAD;
+    border-radius: 10px;
+    color: #FAFFF9;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.schema-even {
+    background-color: #C0E5CA80;
+    color: #81BE88;
+    border: 1px solid rgba(250, 255, 249, 0.5);
+}
+
+.schema-number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 25px;
+}
+
+.schema-icon {
+    padding-left: 25px;
+    padding-top: 110px;
+    width: 40px;
+    color: #FAFFF9;
+}
+
+.schema-even img {
+    color: #81BE88;
+}
+
+.schema-block-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 25px;
+    padding-top: 20px;
+}
+
+.schema ul li {
+    display: inline;
+}
+
+.track {
+    position: absolute;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    text-align: right;
+}
+
+footer li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
