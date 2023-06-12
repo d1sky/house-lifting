@@ -2,13 +2,30 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
-footer ul {
+.footer-info {
     text-align: right;
 }
 
-footer li {
-    list-style-type: none;
+.footer-info-element {
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-info {
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+.footer_phone-link {
+    text-decoration: none;
+    color: black;
 }

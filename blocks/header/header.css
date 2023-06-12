@@ -8,7 +8,6 @@ header {
     background-size: cover;
 }
 
-
 .nav {
     display: flex;
     flex-direction: row;
@@ -55,5 +54,11 @@ nav ul li a:hover {
 }
 
 .phone {
+    color: white;
+    font-size: 15px;
+}
+
+.header_phone-link {
+    text-decoration: none;
     color: white;
 }

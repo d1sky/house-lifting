@@ -39,8 +39,6 @@
     border: 1px solid rgba(250, 255, 249, 0.5);
 }
 
-
-
 .schema-number {
     font-style: normal;
     font-weight: 600;
@@ -69,6 +67,10 @@
     padding-top: 20px;
 }
 
+.schema-icon-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     .schema-small {
         background-color: #C0E5CA80;
@@ -78,6 +80,14 @@
     .schema-even-small {
         background: #A8DAAD;
         color: #FAFFF9;
+    }
+
+    .schema-icon-desktop {
+        display: none;
+    }
+
+    .schema-icon-mobile {
+        display: block;
     }
 }
 
